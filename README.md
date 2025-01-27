@@ -1,2 +1,0 @@
-# stockanalysis
-stock analysis portal

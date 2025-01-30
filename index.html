@@ -270,13 +270,13 @@
             const currentSMA50 = sma50[sma50.length - 1];
             
             if (currentPrice > currentSMA20 && currentSMA20 > currentSMA50) {
-                return 'Strong Uptrend <span style='font-size:50px;'>&#128640;</span>';
+                return 'Strong Uptrend';
             } else if (currentPrice > currentSMA20) {
-                return 'Moderate Uptrend <span style='font-size:50px;'>&#128640;</span>';
+                return 'Moderate Uptrend';
             } else if (currentPrice < currentSMA20 && currentSMA20 < currentSMA50) {
-                return 'Strong Downtrend <span style='font-size:50px;'>&#128640;</span>';
+                return 'Strong Downtrend';
             } else if (currentPrice < currentSMA20) {
-                return 'Moderate Downtrend <span style='font-size:50px;'>&#128640;</span>';
+                return 'Moderate Downtrend';
             }
             return 'Neutral';
         }
